@@ -25,5 +25,6 @@ public class Input {
 
         System.out.print("\n" + "Patient Information" + "\n" + "Patient's name: " + patient + "\n" + "Patient's age: " + age + "\n" + "Patient's weight: " + weight + "\n" + "Smoker? " + smoker + "\n");
 
+        scanner.close();
     }
 }
